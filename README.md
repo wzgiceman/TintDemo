@@ -54,9 +54,9 @@ img2 = (ImageButton) findViewById(R.id.img_click);
 final Drawable originBitmapDrawable = getResources().getDrawable(R.drawable.electric).mutate();
 img1.setImageDrawable(tintDrawable(originBitmapDrawable, ColorStateList.valueOf(Color.GREEN)))
 ```
-问题解决了：
+*问题解决了：其实`mutate`方法的作用就是将修改后的drawable新开辟内存存储一个新的图片资源，和原始图片分开！
 
-![demo](https://github.com/wzgiceman/TintDemo/blob/master/gif/demo.png)
+  ![demo](https://github.com/wzgiceman/TintDemo/blob/master/gif/demo.png)
 
 ##多状态tint修改方案
 实际使用中我们通常需要给一个控件设置多个状态，比如返回按钮这样的功能，同样我们的tint也具有这样的能力
