@@ -54,7 +54,7 @@ img2 = (ImageButton) findViewById(R.id.img_click);
 final Drawable originBitmapDrawable = getResources().getDrawable(R.drawable.electric).mutate();
 img1.setImageDrawable(tintDrawable(originBitmapDrawable, ColorStateList.valueOf(Color.GREEN)))
 ```
-*问题解决了：其实`mutate`方法的作用就是将修改后的drawable新开辟内存存储一个新的图片资源，和原始图片分开！
+*问题解决了：其实`mutate`方法的作用就是将修改后的drawable新开辟内存存储起来，变成一个新的图片资源，和原始图片分开！
 
   ![demo](https://github.com/wzgiceman/TintDemo/blob/master/gif/demo.png)
 
@@ -85,4 +85,4 @@ img1.setImageDrawable(tintDrawable(originBitmapDrawable, ColorStateList.valueOf(
 ![demo](https://github.com/wzgiceman/TintDemo/blob/master/gif/demo.gif)
 
 
-##[更多资源我的CSDN博客](http://blog.csdn.net/wzgiceman)
+###[更多资源我的CSDN博客](http://blog.csdn.net/wzgiceman)
