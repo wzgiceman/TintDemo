@@ -8,7 +8,7 @@ tint是Android系统上用于颜色修改的一个功能，让Android也能有iO
 ##效果：
 ![demo](https://github.com/wzgiceman/TintDemo/blob/master/gif/demo.gif)
 
-###原图图片资源
+* 原图图片资源
 
   ![img](https://github.com/wzgiceman/TintDemo/blob/master/gif/electric.png)
 
@@ -40,7 +40,7 @@ img1.setImageDrawable(tintDrawable(originBitmapDrawable, ColorStateList.valueOf(
 
   ![demo](https://github.com/wzgiceman/TintDemo/blob/master/gif/sample_change.png)
 
-你会发现原本第一张原图也跟着一起改了，这是为什么呢？其实是因为tint修改默认是修改原始图片drawable
+* 你会发现原本第一张原图也跟着一起改了，这是为什么呢？其实是因为tint修改默认是修改原始图片drawable
 的颜色，所以如果一张图片在多个地方同时使用，会导致一起被改变的效果，注意：如果多次修改只会保持最后一次
 修改的颜色
 
@@ -80,5 +80,6 @@ img1.setImageDrawable(tintDrawable(originBitmapDrawable, ColorStateList.valueOf(
  img2.setImageDrawable(tintDrawable(originBitmapDrawable2, getResources().getColorStateList(R.color.select_click)));
 
 ```
-效果：
+* 效果：
+
 ![demo](https://github.com/wzgiceman/TintDemo/blob/master/gif/demo.gif)
