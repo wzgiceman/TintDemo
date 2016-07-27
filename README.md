@@ -9,7 +9,6 @@ tint是Android系统上用于颜色修改的一个功能，让Android也能有iO
 ![demo](https://github.com/wzgiceman/TintDemo/blob/master/gif/demo.gif)
 
 * 原图图片资源
-
 ![img](https://github.com/wzgiceman/TintDemo/blob/master/gif/electric.png)
 
 **我们这里只用了这一张图片资源**
@@ -26,7 +25,6 @@ public Drawable tintDrawable(Drawable drawable, ColorStateList color) {
 ```
 ##实现简单tint修改
 * [xml定义很简单不贴代码了，需要直接看链接吧](https://github.com/wzgiceman/TintDemo/blob/master/app/src/main/res/layout/activity_main.xml)
-
 ![xml](https://github.com/wzgiceman/TintDemo/blob/master/gif/xml.png)
 
 
