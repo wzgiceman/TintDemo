@@ -61,10 +61,10 @@ img1.setImageDrawable(tintDrawable(originBitmapDrawable, ColorStateList.valueOf(
 ##多状态tint修改方案
 实际使用中我们通常需要给一个控件设置多个状态，比如返回按钮这样的功能，同样我们的tint也具有这样的能力
 
-* 创建资源color文件
+* 创建资源文件夹color
 
   ![demo](https://github.com/wzgiceman/TintDemo/blob/master/gif/FC69.tmp.png)
-* 创建一个select文件`select_click`
+* 创建一个select资源文件`select_click`
 
 ```java
 <?xml version="1.0" encoding="utf-8"?>
