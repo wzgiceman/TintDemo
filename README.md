@@ -83,3 +83,6 @@ img1.setImageDrawable(tintDrawable(originBitmapDrawable, ColorStateList.valueOf(
 * 效果：
 
 ![demo](https://github.com/wzgiceman/TintDemo/blob/master/gif/demo.gif)
+
+
+##[更多资源我的CSDN博客](http://blog.csdn.net/wzgiceman)
